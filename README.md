@@ -1,6 +1,21 @@
 # Sports Leagues Viewer
+I used claude actively for this home test, opus model for planning and Haiku for executing.
 
-A single-page application that consumes [TheSportsDB](https://www.thesportsdb.com/free_sports_api) to display and filter sports leagues worldwide. Click any league to see its season badge.
+The prop sent to the AI was pretty much what was mentioned on the document but i added the critical architectural definitions.
+
+React because is the library i have the most experience with, but i do know angular and vue. Its just personal preference.
+
+The pnpm decision is based on the security issue found some days ago caused by an infected dependency and a very early patch release installed in a lot of projects. Refer to the .md attached so you can know more about it in case you dont know(this was very famous).
+
+Tanstack query its the library i normally use to avoid creating the cache logic myself so i specified that into the prompt too.
+
+For tailwind, mostly because is one of the biggest and with one of the greatest community and documentation(even though they have comunicated they dont want to improve their documentation for AI usage since most of their income comes from visits to their webpage and documentation which would be affected by this but eventually i think it might happen) and the standard is easy to follow and maintain.
+
+I can suggest more of the tools i can use on AI based development but the scope didnt require this, 2 promts and less than 40% scope usage made the trick, if i need to explain further just let me know!
+
+This is mobile first and with dark and light mode just for accesibility, i also specified to use aria tags for accesibility(no matter what the project is we should almost always consider accesibility).
+
+
 
 ## Features
 
